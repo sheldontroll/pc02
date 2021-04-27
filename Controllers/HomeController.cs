@@ -28,6 +28,30 @@ namespace pc02.Controllers
             return View();
         }
 
+        public IActionResult Iniciar()
+        {
+            return View();
+        }
+
+        public IActionResult Registro()
+        {
+            return View();
+        }
+
+        public IActionResult Completo()
+        {
+            return View();
+        }
+
+        public IActionResult Actualizar()
+        {
+            return View();
+        }
+        public IActionResult Contacto()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
