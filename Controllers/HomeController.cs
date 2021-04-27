@@ -47,7 +47,19 @@ namespace pc02.Controllers
         {
             return View();
         }
-        public IActionResult Contacto()
+        public IActionResult Contacto ()
+        {
+            return View();
+        }
+
+        [HttpPost]
+
+        public IActionResult Contacto (string nombre, string apellido , string email , string motivo , string descripcion)
+        {
+            return RedirectToAction("Confirmado");
+        }
+
+        public IActionResult Confirmado()
         {
             return View();
         }
