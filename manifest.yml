@@ -1,0 +1,4 @@
+applications:
+ - name: pc02
+   random-route: true
+   memory: 64M
